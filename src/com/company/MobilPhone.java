@@ -10,12 +10,22 @@ public class MobilPhone {
         void onStock(){
 
         if (onStock)
-            System.out.println("The Model of " + brand +"-"+ model + " is on stock");
+            System.out.println("The Model of " + brand + "-" + model + " is on stock");
         else {
             onStock = true;
-            System.out.println("The Model of" + model + " is off stock");
+            System.out.println("The Model of " + brand +"-" + model + " is off stock");
         }
 
+        }
+
+        void showAttribute(){
+
+            System.out.println("The " +brand +"-" +model + " can be order or not?");
+            if (onStock)
+                System.out.println("Is Ready");
+
+            else
+            System.out.println(" Not Ready");
         }
 
     public static void main(String[] args) {
@@ -24,6 +34,8 @@ public class MobilPhone {
         phone.model = "13 Pro Max";
         System.out.println("Mobil shop nr.21");
         phone.onStock();
+        System.out.println("---------");
+        phone.showAttribute();
     }
 
 }
