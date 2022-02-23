@@ -12,7 +12,7 @@ public class MobilPhone {
         if (onStock)
             System.out.println("The Model of " + brand + "-" + model + " is on stock");
         else {
-            onStock = true;
+            onStock = false;
             System.out.println("The Model of " + brand +"-" + model + " is off stock");
         }
 
