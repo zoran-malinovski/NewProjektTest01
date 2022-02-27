@@ -22,7 +22,7 @@ public class MobilPhone {
 
             System.out.println("The " +brand +"-" +model + " can be order or not?");
             if (onStock)
-                System.out.println("Is Ready");
+                System.out.println("Is Ready to order");
 
             else
             System.out.println(" Not Ready");
