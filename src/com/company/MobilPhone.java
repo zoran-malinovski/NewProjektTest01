@@ -25,7 +25,7 @@ public class MobilPhone {
                 System.out.println("Is Ready to order");
 
             else
-            System.out.println(" Not Ready");
+            System.out.println(" Not Ready to order");
         }
 
     public static void main(String[] args) {
