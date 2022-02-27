@@ -4,7 +4,7 @@ public class MobilPhone {
 
         String brand;
         String model;
-        boolean onStock = true;
+        boolean onStock = false;
 
 
         void onStock(){
